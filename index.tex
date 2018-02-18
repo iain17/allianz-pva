@@ -1,16 +1,14 @@
 %%%%%
 %%
-%% Sample document ``thesis.tex''
+%% Plan van Aanpak
 %%
-%% Version: v0.2
-%% Authors: Jean Martina, Rok Strnisa, Matej Urbas
-%% Date: 30/07/2008
-%%
-%% Copyright (c) 2008-2011, Rok Strniša, Jean Martina, Matej Urbas
-%% License: Simplified BSD License
-%% License file: ./License
-%% Original License URL: http://www.freebsd.org/copyright/freebsd-license.html
+%% Version: v0.1
+%% Authors: Iain Munro
+%% Date: 18/02/2018
 %%%%%
+
+%Install packages using:
+%sudo tlmgr install
 
 % Available documentclass options:
 %
@@ -36,7 +34,12 @@
 \usepackage{titlesec}
 \titlespacing{\chapter}{0pt}{0pt}{}
 
+%Om de pagina margins etc te debuggen
 %\usepackage{showframe}
+
+\usepackage{pgfgantt}
+\usepackage{rotating}
+\usepackage[graphicx]{realboxes}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Style (Changing the visual style of chapter headings and stuff.)
@@ -163,12 +166,13 @@ Teamlid: Calum Iain Munro (549288)\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Bibliography:
 %%
-\cleardoublepage
-\phantomsection
-\addcontentsline{toc}{chapter}{Bibliografie}
-\bibliographystyle{apacite}
+%\cleardoublepage
+%\phantomsection
+\chapter{Bibliografie}
+%\addcontentsline{toc}{chapter}{Bibliografie}
+%\bibliographystyle{apacite}
 \bibliography{thesis}
-
+asd
 
 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

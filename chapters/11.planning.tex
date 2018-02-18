@@ -1,2 +1,56 @@
+%\begin{sidewaysfigure}
+
 \chapter{Planning}
-In dit hoofdstuk maak je een koppeling tussen de ontwikkelmethode en je activiteiten. Dit geef je weer in een GANTT-chart oftewel strokenplanning, waarin je je mijlpalen duidelijk weergeeft. Let op dat je ontwikkelmethode voldoende herkenbaar is in de planning.
+%In dit hoofdstuk maak je een koppeling tussen de ontwikkelmethode en je activiteiten. Dit geef je weer in een GANTT-chart oftewel strokenplanning, waarin je je mijlpalen duidelijk weergeeft. Let op dat je ontwikkelmethode voldoende herkenbaar is in de planning.
+\begin{ganttchart}[vgrid, hgrid]{1}{21}
+\gantttitle{februari}{4}
+\gantttitle{maart}{4}
+\gantttitle{april}{4}
+\gantttitle{mei}{5}
+\gantttitle{juni}{4}\\
+\gantttitlelist{6,...,26}{1}\\
+%Projectplan
+\ganttgroup{Project plan}{1}{6} \\
+\ganttbar{Plan Van Aanpak}{1}{4} \\
+\ganttbar{Onderzoeksplan}{2}{4} \\
+\ganttmilestone{Concept projectplan}{3}\\
+\ganttmilestone{Definitief projectplan}{6}\\
+%Onderzoek
+\ganttgroup{Onderzoek}{5}{18} \\
+\ganttbar{Analysis}{10}{16} \\
+\ganttbar{Requirements}{10}{16} \\
+\ganttbar{Prototyping}{10}{16} \\
+%Afstudeerverslagen
+\ganttgroup{Afstudeerverslagen}{10}{20} \\
+\ganttbar{Reflectieverslag}{10}{19} \\
+\ganttbar{Presentatie}{18}{19} \\
+\ganttmilestone{80\% versie}{15}\\
+\ganttmilestone{Eindverslag}{19}\\
+\ganttmilestone{Afstudeerpresentatie}{20}\\
+
+\node [left] at ([yshift=-1.3cm]mycanvas.north west) {Week};
+\end{ganttchart}
+%\end{sidewaysfigure}
+
+\newpage
+\section{Opleverdata mijlpaalproducten}
+In deze paragraaf zijn de uiterlijke opleverdata voor de mijlpaalproducten vermeld.
+
+\small
+\begin{center}
+ \begin{tabular}{|c c|} 
+ 
+ \hline
+ Product & Datum \\ [0.5ex] 
+ \hline
+ Projectplan concept (Plan van Aanpak, Onderzoeksplan) & 23-02-2018 \\
+ \hline
+ Projectplan definitief (Plan van Aanpak, Onderzoeksplan) & 16-03-2018 \\
+ \hline
+ 80\% versie (Onderzoeksverslag, POC, Reflectieverslag) & 14-05-2018 \\
+ \hline
+ Eindverslag (Onderzoeksverslag, POC, Reflectieverslag) & 11-06-2018 \\
+ \hline
+\end{tabular}
+\end{center}
+\end{small}
