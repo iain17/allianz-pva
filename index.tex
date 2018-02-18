@@ -1,0 +1,203 @@
+%%%%%
+%%
+%% Sample document ``thesis.tex''
+%%
+%% Version: v0.2
+%% Authors: Jean Martina, Rok Strnisa, Matej Urbas
+%% Date: 30/07/2008
+%%
+%% Copyright (c) 2008-2011, Rok Strniša, Jean Martina, Matej Urbas
+%% License: Simplified BSD License
+%% License file: ./License
+%% Original License URL: http://www.freebsd.org/copyright/freebsd-license.html
+%%%%%
+
+% Available documentclass options:
+%
+%   <all `report` document class options, e.g.: `a5paper`>
+%   withindex   - enables the index. New index entries can be added through `\index{my entry}`
+%   glossary    - enables the glossary.
+%   techreport  - typesets the thesis in the technical report format.
+%   firstyr     - formats the document as a first-year report.
+%   times       - uses the `Times` font.
+%   backrefs    - add back references in the Bibliography section
+%
+% For more info see `README.md`
+\documentclass[firstyr,glossary,oneside]{cam-thesis}%withindex
+\usepackage[dutch]{babel}
+% Citations using numbers
+\usepackage[numbers]{natbib}
+
+%APA norm
+\usepackage{apalike}
+\usepackage{makecell}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Style (Changing the visual style of chapter headings and stuff.)
+%%
+\RequirePackage{titlesec}
+% [Fixes issue #34 (see https://github.com/cambridge/thesis/issues/34). Solution from: http://tex.stackexchange.com/questions/299969/titlesec-loss-of-section-numbering-with-the-new-update-2016-03-15
+\RequirePackage{etoolbox}
+\makeatletter
+\patchcmd{\ttlh@hang}{\parindent\z@}{\parindent\z@\leavevmode}{}{}
+\patchcmd{\ttlh@hang}{\noindent}{}{}{}
+\makeatother
+% end of issue #34 fix]
+\newcommand{\PreContentTitleFormat}{\titleformat{\chapter}[display]{\scshape\Large}
+{\Large\filleft\MakeUppercase{\chaptertitlename} \Huge\thechapter}
+{1ex}
+{}
+[\vspace{1ex}\titlerule]}
+\newcommand{\ContentTitleFormat}{\titleformat{\chapter}[display]{\scshape\huge}
+{\Large\filleft\MakeUppercase{\chaptertitlename} \Huge\thechapter}
+{1ex}
+{\titlerule\vspace{1ex}\filright}
+[\vspace{1ex}\titlerule]}
+\newcommand{\PostContentTitleFormat}{\PreContentTitleFormat}
+\PreContentTitleFormat
+
+%Om dubbelen legen pagina's weg te halen.
+\let\cleardoublepage=\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Thesis meta-information
+%%
+
+%% The title of the thesis:
+\title{Plan van Aanpak}
+
+%% The full name of the author (e.g.: James Smith):
+\author{Calum Iain Munro}
+
+%% College affiliation:
+\college{Software Development, ICA, VT}
+
+%% College shield [optional]:
+\collegeshield{CollegeShields/ICA}
+
+%% Submission date [optional]:
+\submissiondate{Febuari, 2018}
+
+%% You can redefine the submission notice [optional]:
+\submissionnotice{
+\textbf{Versie: 1}\\
+\textbf{Datum: \today}\\
+\\~\\
+\textbf{Gegevens opdrachtgever:}\\
+Bedrijf:			HeadForward B.V.\\
+Contactpersonen:	Dani\"el Siahaya\\
+\\~\\
+\textbf{Gegevens opleiding:}\\
+Opleiding: HBO bachelor Informatica\\
+School: Hogeschool van Arnhem en Nijmegen\\
+Begeleider:	Misja Nabben\\
+Assessor: Rein Harle\\
+\\~\\
+\textbf{Gegevens opdrachtnemer:}\\
+Teamlid: Calum Iain Munro (549288)\\
+}
+
+%% Declaration date:
+\date{Febuari, 2018}
+
+%% PDF meta-info:
+\subjectline{Project Plan}%Computer Science
+\keywords{Project plan Calum Iain Munro HAN}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %% Abstract:
+% %%
+
+% \abstract{%
+%   My abstract ...
+% }
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %% Acknowledgements:
+% %%
+% \acknowledgements{%
+%   My acknowledgements ...
+% }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Glossary [optional]:
+%%
+% \newglossaryentry{HOL}{
+%     name=HOL,
+%     description={Higher-order logic}
+% }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Inhoudsopgave:
+%%
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Title page, abstract, declaration etc.:
+%% -    the title page (is automatically omitted in the technical report mode).
+\frontmatter{}
+
+\chapter{Voorwoord}
+\input{chapters/1.Voorwoord}
+
+\chapter{Inleiding}
+\input{chapters/2.inleiding}
+
+\chapter{Context}
+\input{chapters/3.context}
+
+\chapter{Aanleiding voor het project}
+\input{chapters/4.aanleiding}
+
+\chapter{Doelstelling, opdracht en op te leveren resultaten voor het bedrijf}
+\input{chapters/5.doelstelling}
+
+\chapter{Projectgrenzen}
+\input{chapters/6.projectGrenzen}
+
+\chapter{Randvoorwaarden}
+\input{chapters/7.randvoorwaarden}
+
+\chapter{Op te leveren producten en kwaliteitseisen}
+\input{chapters/8.productenEnKwaliteit}
+
+\chapter{Ontwikkelmethoden}
+\input{chapters/9.ontwikkelmethoden}
+
+\chapter{Projectorganisatie en communicatie}
+\input{chapters/10.projectorganisatie}
+
+\chapter{Planning}
+\input{chapters/11.planning}
+
+\chapter{Risico's}
+\input{chapters/12.riscos}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Bibliography:
+%%
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Bibliografie}
+\bibliographystyle{apacite}
+\bibliography{thesis}
+
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %% Appendix:
+% %%
+
+% \appendix
+
+% \chapter{Extra Information}
+% Some more text ...
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Index:
+%%
+% \printthesisindex
+
+\end{document}
