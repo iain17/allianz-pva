@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.29)  18 FEB 2018 00:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.29)  18 FEB 2018 01:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -15,8 +15,8 @@ Document Class: cam-thesis 2012/04/12 University of Cambridge thesis class
 
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2017basic/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -191,254 +191,82 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \Hy@SectionHShift=\skip47
 ) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/oberdiek/hypcap.sty
 Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
-) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/glossaries/base/glossaries.sty
-Package: glossaries 2017/11/14 v4.35 (NLCT)
- (/usr/local/texlive/2017basic/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
- (/usr/local/texlive/2017basic/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2017basic/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks16
-\XKV@tempa@toks=\toks17
 )
-\XKV@depth=\count104
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
-Package: mfirstuc 2017/11/14 v2.06 (NLCT)
- (/usr/local/texlive/2017basic/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count105
-)
-\@glsmfirst=\toks18
-\@glsmrest=\toks19
-) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/textcase/textcase.sty
-Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
-) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/xfor/xfor.sty
-Package: xfor 2009/02/05 v1.05 (NLCT)
-) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/datatool/datatool-base.sty
-Package: datatool-base 2017/11/12 v2.29 (NLCT)
- (/usr/local/texlive/2017basic/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip48
-
-For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2017basic/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
- (/usr/local/texlive/2017basic/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks20
-\ex@=\dimen112
-)) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen113
-) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
-)
-\inf@bad=\count106
-LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count107
-\leftroot@=\count108
-LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count109
-\DOTSCASE@=\count110
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box26
-\strutbox@=\box27
-\big@size=\dimen114
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count111
-\c@MaxMatrixCols=\count112
-\dotsspace@=\muskip11
-\c@parentequation=\count113
-\dspbrk@lvl=\count114
-\tag@help=\toks21
-\row@=\count115
-\column@=\count116
-\maxfields@=\count117
-\andhelp@=\toks22
-\eqnshift@=\dimen115
-\alignsep@=\dimen116
-\tagshift@=\dimen117
-\tagwidth@=\dimen118
-\totwidth@=\dimen119
-\lineht@=\dimen120
-\@envbody=\toks23
-\multlinegap=\skip49
-\multlinetaggap=\skip50
-\mathdisplay@stack=\toks24
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
-) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/substr/substr.sty
-Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count118
-) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/datatool/datatool-fp.sty
-Package: datatool-fp 2017/11/12 v2.29 (NLCT)
- (/usr/local/texlive/2017basic/texmf-dist/tex/latex/fp/fp.sty
-Package: fp 1995/04/02
- `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (/usr/local/texlive/2017basic/texmf-dist/tex/latex/fp/defpattern.sty
-Package: defpattern 1994/10/12
-\actioncount=\count119
-) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/fp/fp-basic.sty
-Package: fp-basic 1996/05/13
-\FP@xs=\count120
-\FP@xia=\count121
-\FP@xib=\count122
-\FP@xfa=\count123
-\FP@xfb=\count124
-\FP@rega=\count125
-\FP@regb=\count126
-\FP@regs=\count127
-\FP@times=\count128
-) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/fp/fp-addons.sty
-Package: fp-addons 1995/03/15
-) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/fp/fp-snap.sty
-Package: fp-snap 1995/04/05
-) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/fp/fp-exp.sty
-Package: fp-exp 1995/04/03
-) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/fp/fp-trigo.sty
-Package: fp-trigo 1995/04/14
-) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/fp/fp-pas.sty
-Package: fp-pas 1994/08/29
-) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/fp/fp-random.sty
-Package: fp-random 1995/02/23
-\FPseed=\count129
-) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/fp/fp-eqn.sty
-Package: fp-eqn 1995/04/03
-) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/fp/fp-upn.sty
-Package: fp-upn 1996/10/21
-) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/fp/fp-eval.sty
-Package: fp-eval 1995/04/03
-)))
-\@dtl@toks=\toks25
-\@dtl@tmpcount=\count130
-\dtl@tmplength=\skip51
-\dtl@sortresult=\count131
-\@dtl@numgrpsepcount=\count132
-\@dtl@datatype=\count133
-\dtl@codeA=\count134
-\dtl@codeB=\count135
-\@dtl@foreach@level=\count136
-) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-307.sty
-Package: glossaries-compatible-307 2017/11/14 v4.35 (NLCT)
-)
-\gls@level=\count137
-\@gls@tmpb=\toks26
-\gls@tmplen=\skip52
-\glskeylisttok=\toks27
-\glslabeltok=\toks28
-\glsshorttok=\toks29
-\glslongtok=\toks30
- (/usr/local/texlive/2017basic/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
-Package: glossary-hypernav 2017/11/14 v4.35 (NLCT)
-) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
-Package: glossary-list 2017/11/14 v4.35 (NLCT)
-\glslistdottedwidth=\skip53
-) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
-Package: glossary-long 2017/11/14 v4.35 (NLCT)
- (/usr/local/texlive/2017basic/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip54
-\LTright=\skip55
-\LTpre=\skip56
-\LTpost=\skip57
-\LTchunksize=\count138
-\LTcapwidth=\dimen121
-\LT@head=\box28
-\LT@firsthead=\box29
-\LT@foot=\box30
-\LT@lastfoot=\box31
-\LT@cols=\count139
-\LT@rows=\count140
-\c@LT@tables=\count141
-\c@LT@chunks=\count142
-\LT@p@ftn=\toks31
-)
-\glsdescwidth=\skip58
-\glspagelistwidth=\skip59
-) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
-Package: glossary-tree 2017/11/14 v4.35 (NLCT)
-\glstreeindent=\skip60
-))
-\glswrite=\write3
-\glo@main@file=\write4
-\openout4 = `index.glo'.
-
-Package glossaries Info: Writing glossary file index.glo on input line 160.
-\cam@topmargin=\skip61
-\cam@bottommargin=\skip62
+\cam@topmargin=\skip48
+\cam@bottommargin=\skip49
 ) (/usr/local/texlive/2017basic/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2017/05/19 3.10 The Babel package
  (/usr/local/texlive/2017basic/texmf-dist/tex/generic/babel-dutch/dutch.ldf
 Language: dutch 2005/03/30 v3.8i Dutch support from the babel system
  (/usr/local/texlive/2017basic/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2017/05/19 3.10 Babel common definitions
-\babel@savecnt=\count143
-\U@D=\dimen122
+\babel@savecnt=\count104
+\U@D=\dimen112
 )
 Package babel Info: Making " an active character on input line 132.
 )) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip63
-\bibsep=\skip64
+\bibhang=\skip50
+\bibsep=\skip51
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count144
+\c@NAT@ctr=\count105
 ) (/usr/local/texlive/2017basic/texmf-dist/tex/generic/bibtex/apalike.sty) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
  (/usr/local/texlive/2017basic/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen123
-\extrarowheight=\dimen124
-\NC@list=\toks32
-\extratabsurround=\skip65
-\backup@length=\skip66
+\col@sep=\dimen113
+\extrarowheight=\dimen114
+\NC@list=\toks16
+\extratabsurround=\skip52
+\backup@length=\skip53
 )
-\rotheadsize=\dimen125
-\c@nlinenum=\count145
-\TeXr@lab=\toks33
+\rotheadsize=\dimen115
+\c@nlinenum=\count106
+\TeXr@lab=\toks17
 ) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box32
-\beforetitleunit=\skip67
-\aftertitleunit=\skip68
-\ttl@plus=\dimen126
-\ttl@minus=\dimen127
-\ttl@toksa=\toks34
-\titlewidth=\dimen128
-\titlewidthlast=\dimen129
-\titlewidthfirst=\dimen130
+\ttl@box=\box26
+\beforetitleunit=\skip54
+\aftertitleunit=\skip55
+\ttl@plus=\dimen116
+\ttl@minus=\dimen117
+\ttl@toksa=\toks18
+\titlewidth=\dimen118
+\titlewidthlast=\dimen119
+\titlewidthfirst=\dimen120
+) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count107
 ) (/Users/iain17/Google Drive/Afstuderen/docs/Plan van Aanpak/.texpadtmp/index.aux)
 \openout1 = `index.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
  (/usr/local/texlive/2017basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count146
-\scratchdimen=\dimen131
-\scratchbox=\box33
-\nofMPsegments=\count147
-\nofMParguments=\count148
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count149
-\MPscratchDim=\dimen132
-\MPnumerator=\count150
-\makeMPintoPDFobject=\count151
-\everyMPtoPDFconversion=\toks36
+\scratchcounter=\count108
+\scratchdimen=\dimen121
+\scratchbox=\box27
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen122
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
+\everyMPtoPDFconversion=\toks20
 ) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/local/texlive/2017basic/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -451,7 +279,7 @@ Package grfext Info: Graphics extension search list:
  (/usr/local/texlive/2017basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Info: Redefining \microtypecontext on input line 133.
+LaTeX Info: Redefining \microtypecontext on input line 139.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -464,146 +292,142 @@ Package microtype Info: No adjustment of character kerning.
  (/usr/local/texlive/2017basic/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-\AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring OFF on input line 133.
+\AtBeginShipoutBox=\box28
+Package hyperref Info: Link coloring OFF on input line 139.
  (/usr/local/texlive/2017basic/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/local/texlive/2017basic/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count152
+\c@section@level=\count114
 )
-LaTeX Info: Redefining \ref on input line 133.
-LaTeX Info: Redefining \pageref on input line 133.
-LaTeX Info: Redefining \nameref on input line 133.
+LaTeX Info: Redefining \ref on input line 139.
+LaTeX Info: Redefining \pageref on input line 139.
+LaTeX Info: Redefining \nameref on input line 139.
  (/Users/iain17/Google Drive/Afstuderen/docs/Plan van Aanpak/.texpadtmp/index.out) (/Users/iain17/Google Drive/Afstuderen/docs/Plan van Aanpak/.texpadtmp/index.out)
-\@outlinefile=\write5
-\openout5 = `index.out'.
+\@outlinefile=\write3
+\openout3 = `index.out'.
 
-\cam@logorightnudge=\skip69
-\cam@logo=\box35
+\cam@logorightnudge=\skip56
+\cam@logo=\box29
  <CollegeShields/CUni.pdf, id=96, 2900.28563pt x 521.47324pt>
 File: CollegeShields/CUni.pdf Graphic file (type pdf)
  <use CollegeShields/CUni.pdf>
-Package pdftex.def Info: CollegeShields/CUni.pdf used on input line 137.
+Package pdftex.def Info: CollegeShields/CUni.pdf used on input line 143.
 (pdftex.def)             Requested size: 207.70511pt x 37.34233pt.
-\cam@title=\box36
-\cam@collegeshieldbox=\box37
+\cam@title=\box30
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 143.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 143.
+\cam@collegeshieldbox=\box31
  <CollegeShields/ICA.pdf, id=97, 962.59625pt x 481.8pt>
 File: CollegeShields/ICA.pdf Graphic file (type pdf)
  <use CollegeShields/ICA.pdf>
-Package pdftex.def Info: CollegeShields/ICA.pdf used on input line 137.
+Package pdftex.def Info: CollegeShields/ICA.pdf used on input line 143.
 (pdftex.def)             Requested size: 113.68524pt x 56.9055pt.
-\cam@authorcollege=\box38
-\cam@submitnotice=\box39
+\cam@authorcollege=\box32
+\cam@submitnotice=\box33
 
 
-./index.tex:137: LaTeX Error: There's no line here to end.
+./index.tex:143: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.137 \frontmatter
+l.143 \frontmatter
                   {}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./index.tex:137: LaTeX Error: There's no line here to end.
+./index.tex:143: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.137 \frontmatter
+l.143 \frontmatter
                   {}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./index.tex:137: LaTeX Error: There's no line here to end.
+./index.tex:143: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.137 \frontmatter
+l.143 \frontmatter
                   {}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-\cam@titlepagevspace=\skip70
+\cam@titlepagevspace=\skip57
 [1
 
-\openout3 = `index.ist'.
+{/usr/local/texlive/2017basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./CollegeShields/CUni.pdf> <./CollegeShields/ICA.pdf>] (/Users/iain17/Google Drive/Afstuderen/docs/Plan van Aanpak/.texpadtmp/index.toc [2
 
-{/usr/local/texlive/2017basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./CollegeShields/CUni.pdf> <./CollegeShields/ICA.pdf>] (/Users/iain17/Google Drive/Afstuderen/docs/Plan van Aanpak/.texpadtmp/index.toc)
-\tf@toc=\write6
-\openout6 = `index.toc'.
+])
+\tf@toc=\write4
+\openout4 = `index.toc'.
 
- [2
-
-]
+ (./chapters/1.Voorwoord.tex [3]
 Hoofdstuk 1.
-(./chapters/1.Voorwoord.tex) [3
+) (./chapters/2.inleiding.tex [4
 
 ]
 Hoofdstuk 2.
-(./chapters/2.inleiding.tex
-Missing character: There is no √ in font cmr12!
-Missing character: There is no Ø in font cmr12!
-) [4
+Missing character: There is no √ in font cmr10!
+Missing character: There is no Ø in font cmr10!
+) (./chapters/3.context.tex [5
 
-] [5]
+]
 Hoofdstuk 3.
-(./chapters/3.context.tex
-Missing character: There is no √ in font cmr12!
-Missing character: There is no ´ in font cmr12!
- <images/org.png, id=151, 301.125pt x 274.02374pt>
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ´ in font cmr10!
+<images/org.png, id=153, 301.125pt x 274.02374pt>
 File: images/org.png Graphic file (type png)
  <use images/org.png>
-Package pdftex.def Info: images/org.png used on input line 10.
+Package pdftex.def Info: images/org.png used on input line 11.
 (pdftex.def)             Requested size: 200.75073pt x 182.6918pt.
-) [6
+) (./chapters/4.aanleiding.tex [6
 
  <./images/org.png>]
 Hoofdstuk 4.
-(./chapters/4.aanleiding.tex
-Missing character: There is no √ in font cmr12!
-Missing character: There is no ´ in font cmr12!
-) [7
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ´ in font cmr10!
+) (./chapters/5.doelstelling.tex [7
 
 ]
 Hoofdstuk 5.
-(./chapters/5.doelstelling.tex) [8
+) (./chapters/6.projectGrenzen.tex [8
 
 ]
 Hoofdstuk 6.
-(./chapters/6.projectGrenzen.tex
-Missing character: There is no √ in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no √ in font cmr12!
-Missing character: There is no © in font cmr12!
-) [9
+Missing character: There is no √ in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no © in font cmr10!
+) (./chapters/7.randvoorwaarden.tex [9
 
 ]
 Hoofdstuk 7.
-(./chapters/7.randvoorwaarden.tex
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 13.
- (/usr/local/texlive/2017basic/texmf-dist/tex/latex/base/omscmr.fd
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 14.
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
  [10
 
-]) [11]
+]) (./chapters/8.productenEnKwaliteit.tex [11]
 Hoofdstuk 8.
-(./chapters/8.productenEnKwaliteit.tex
 
 Package natbib Warning: Citation `icaControl' on page 12 undefined on input line 14.
 
@@ -629,116 +453,103 @@ Package natbib Warning: Citation `icaControl' on page 12 undefined on input line
 Package natbib Warning: Citation `icaControl' on page 12 undefined on input line 42.
 
 
-Overfull \hbox (60.73575pt too wide) in paragraph at lines 6--68
- [] 
- []
-
-
 Package natbib Warning: Citation `studiegids' on page 12 undefined on input line 72.
 
 [12
 
 ]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no à in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no à in font cmr12!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no à in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no à in font cmr10!
  [13]
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no à in font cmr12!
-) [14]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no à in font cmr10!
+) (./chapters/9.ontwikkelmethoden.tex [14]
 Hoofdstuk 9.
-(./chapters/9.ontwikkelmethoden.tex
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no Ç in font cmr12!
-Missing character: There is no ß in font cmr12!
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no Ç in font cmr12!
-Missing character: There is no ß in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no Å in font cmr12!
-) [15
+Missing character: There is no Ô in font cmr10!
+Missing character: There is no Ç in font cmr10!
+Missing character: There is no ß in font cmr10!
+Missing character: There is no Ô in font cmr10!
+Missing character: There is no Ç in font cmr10!
+Missing character: There is no ß in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no Å in font cmr10!
+) (./chapters/10.projectorganisatie.tex [15
 
 ]
 Hoofdstuk 10.
-(./chapters/10.projectorganisatie.tex
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no Ç in font cmr12!
-Missing character: There is no ß in font cmr12!
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no Ç in font cmr12!
-Missing character: There is no ß in font cmr12!
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no Ç in font cmr12!
-Missing character: There is no ß in font cmr12!
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no Ç in font cmr12!
-Missing character: There is no ß in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
-) [16
+Missing character: There is no Ô in font cmr10!
+Missing character: There is no Ç in font cmr10!
+Missing character: There is no ß in font cmr10!
+Missing character: There is no Ô in font cmr10!
+Missing character: There is no Ç in font cmr10!
+Missing character: There is no ß in font cmr10!
+Missing character: There is no Ô in font cmr10!
+Missing character: There is no Ç in font cmr10!
+Missing character: There is no ß in font cmr10!
+Missing character: There is no Ô in font cmr10!
+Missing character: There is no Ç in font cmr10!
+Missing character: There is no ß in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+) (./chapters/11.planning.tex [16
 
 ]
 Hoofdstuk 11.
-(./chapters/11.planning.tex) [17
+) (./chapters/12.riscos.tex [17
 
 ]
 Hoofdstuk 12.
-(./chapters/12.riscos.tex
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ò in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no Å in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no Å in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no à in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no Å in font cmr12!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no Å in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no Å in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no à in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no Å in font cmr10!
 ) [18
 
 ] (/Users/iain17/Google Drive/Afstuderen/docs/Plan van Aanpak/.texpadtmp/index.bbl)
 
-Package glossaries Warning: No \printglossary or \printglossaries found. 
-(Remove \makeglossaries if you don't want any glossaries.) 
-This document will not have a glossary.
-
-
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 203.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 203.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
 (/Users/iain17/Google Drive/Afstuderen/docs/Plan van Aanpak/.texpadtmp/index.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 203.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 203.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
 Package rerunfilecheck Info: File `index.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 203.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 186.
  ) 
 Here is how much of TeX's memory you used:
- 12641 strings out of 494437
- 190869 string characters out of 6166645
- 380576 words of memory out of 5000000
- 15602 multiletter control sequences out of 15000+600000
- 12446 words of font info for 71 fonts, out of 8000000 for 9000
+ 8601 strings out of 494437
+ 129791 string characters out of 6166645
+ 264264 words of memory out of 5000000
+ 11685 multiletter control sequences out of 15000+600000
+ 9094 words of font info for 59 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 52i,13n,44p,2016b,412s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "/Users/iain17/Google Drive/Afstuderen/docs/Plan van Aanpak/.texpadtmp/index.pdf" (18 pages, 137925 bytes).
+ 38i,13n,44p,899b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "/Users/iain17/Google Drive/Afstuderen/docs/Plan van Aanpak/.texpadtmp/index.pdf" (18 pages, 167191 bytes).
 PDF statistics:
- 243 PDF objects out of 1000 (max. 8388607)
- 211 compressed objects within 3 object streams
+ 251 PDF objects out of 1000 (max. 8388607)
+ 217 compressed objects within 3 object streams
  44 named destinations out of 1000 (max. 500000)
  12488 words of extra memory for PDF output out of 14400 (max. 10000000)
 

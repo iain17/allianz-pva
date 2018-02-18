@@ -23,7 +23,7 @@
 %   backrefs    - add back references in the Bibliography section
 %
 % For more info see `README.md`
-\documentclass[firstyr,glossary,oneside]{cam-thesis}%withindex
+\documentclass[firstyr,a4paper,oneside]{cam-thesis}%withindex
 \usepackage[dutch]{babel}
 % Citations using numbers
 \usepackage[numbers]{natbib}
@@ -31,6 +31,12 @@
 %APA norm
 \usepackage{apalike}
 \usepackage{makecell}
+
+%Normale paragraven
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+
+%\usepackage{showframe}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Style (Changing the visual style of chapter headings and stuff.)
@@ -136,40 +142,17 @@ Teamlid: Calum Iain Munro (549288)\\
 %% -    the title page (is automatically omitted in the technical report mode).
 \frontmatter{}
 
-\chapter{Voorwoord}
 \input{chapters/1.Voorwoord}
-
-\chapter{Inleiding}
 \input{chapters/2.inleiding}
-
-\chapter{Context}
 \input{chapters/3.context}
-
-\chapter{Aanleiding voor het project}
 \input{chapters/4.aanleiding}
-
-\chapter{Doelstelling, opdracht en op te leveren resultaten voor het bedrijf}
 \input{chapters/5.doelstelling}
-
-\chapter{Projectgrenzen}
 \input{chapters/6.projectGrenzen}
-
-\chapter{Randvoorwaarden}
 \input{chapters/7.randvoorwaarden}
-
-\chapter{Op te leveren producten en kwaliteitseisen}
 \input{chapters/8.productenEnKwaliteit}
-
-\chapter{Ontwikkelmethoden}
 \input{chapters/9.ontwikkelmethoden}
-
-\chapter{Projectorganisatie en communicatie}
 \input{chapters/10.projectorganisatie}
-
-\chapter{Planning}
 \input{chapters/11.planning}
-
-\chapter{Risico's}
 \input{chapters/12.riscos}
 
 

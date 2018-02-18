@@ -99,7 +99,7 @@
 %% Using report class as base.
 %%
 %%%%%
-\PassOptionsToClass{a4paper,10pt,oneside,openright}{report}
+\PassOptionsToClass{a4paper,12pt,twoside,openright}{report}
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{report}}
 \ProcessOptions\relax
 \LoadClass{report}
