@@ -26,13 +26,17 @@
 % Citations using numbers
 \usepackage[numbers]{natbib}
 
+\newcommand{\thesisTitle}{Allianz - Automatiseren Claim Process}
+
 %APA norm
-\usepackage{apalike}
+\bibliographystyle{apacite}
 \usepackage{makecell}
 
 %Set the title spacing correctly
 \usepackage{titlesec}
-\titlespacing{\chapter}{0pt}{0pt}{}
+\titlespacing{\chapter}{0pt}{0pt}{0pt}
+\titlespacing{\section}{0pt}{0pt}{0pt}
+\titlespacing{\subsection}{0pt}{0pt}{0pt}
 
 %Om de pagina margins etc te debuggen
 %\usepackage{showframe}
@@ -163,25 +167,21 @@ Teamlid: Calum Iain Munro (549288)\\
 \input{chapters/12.riscos}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
 %% Bibliography:
 %%
 %\cleardoublepage
 %\phantomsection
-\chapter{Bibliografie}
-%\addcontentsline{toc}{chapter}{Bibliografie}
-%\bibliographystyle{apacite}
+\addcontentsline{toc}{chapter}{Bibliografie}
 \bibliography{thesis}
-asd
-
 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % %% Appendix:
 % %%
 
-% \appendix
-
-% \chapter{Extra Information}
+%\appendix
+%\chapter{Extra Information}
 % Some more text ...
 
 

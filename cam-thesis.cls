@@ -390,7 +390,7 @@ for the degree of Doctor of Philosophy%
 				\fi%
 			{\@title{}}%
 			\ifcam@firstyr\\%
-				{\vspace{5mm}\emph{\LARGE Afstudeerproject: Allianz - Automatiseren Claim Process}}%
+				{\vspace{5mm}\emph{\LARGE Afstudeerproject: Allianz}}%
 			\fi%
 			\ifcam@secondyr\\%
 				{\vspace{5mm}\emph{\LARGE Dissertation Schedule}}%
