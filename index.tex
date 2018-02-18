@@ -32,9 +32,9 @@
 \usepackage{apalike}
 \usepackage{makecell}
 
-%Normale paragraven
-\setlength{\parindent}{0em}
-\setlength{\parskip}{1em}
+%Set the title spacing correctly
+\usepackage{titlesec}
+\titlespacing{\chapter}{0pt}{0pt}{}
 
 %\usepackage{showframe}
 
@@ -141,6 +141,10 @@ Teamlid: Calum Iain Munro (549288)\\
 %% Title page, abstract, declaration etc.:
 %% -    the title page (is automatically omitted in the technical report mode).
 \frontmatter{}
+
+%Normale paragraven
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
 
 \input{chapters/1.Voorwoord}
 \input{chapters/2.inleiding}
