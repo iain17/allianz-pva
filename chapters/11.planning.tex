@@ -2,6 +2,12 @@
 
 \chapter{Planning}
 %In dit hoofdstuk maak je een koppeling tussen de ontwikkelmethode en je activiteiten. Dit geef je weer in een GANTT-chart oftewel strokenplanning, waarin je je mijlpalen duidelijk weergeeft. Let op dat je ontwikkelmethode voldoende herkenbaar is in de planning.
+Dit project wordt agile aangepakt. Meer hierover in het hoofdstuk ‘\nameref{chap:projectmethod}’. Deze aanpakt probeert risico's te verminderen door software te ontwikkelen in korte, overzichtelijke perioden, die ‘iteraties’ genoemd worden. Het project is dus opgedeeld in iteraties van 2 weken, waarin in iedere iteratie bruikbaren producten worden opgeleverd.\\
+
+Uit iedere iteratie wordt ook feedback ontvangen, waaruit het proces van het project zich continue verbeterd. Zodoende wordt er een stuk onderzocht en tegelijkertijd ook gewerkt aan een stuk prototype voor het proof of concept. Gedurende het project wordt er met de begeleider en input van de externe opdrachtgever besproken wat er in de iteratie wordt gedaan. Hieruit wordt vervolgens de todo swimming lane gevuld met werk voor die iteratie.
+
+\section{GANTT-chart}
+
 \begin{ganttchart}[vgrid, hgrid]{1}{21}
 \gantttitle{februari}{4}
 \gantttitle{maart}{4}
@@ -10,20 +16,23 @@
 \gantttitle{juni}{4}\\
 \gantttitlelist{6,...,26}{1}\\
 %Projectplan
-\ganttgroup{Project plan}{1}{6} \\
-\ganttbar{Plan Van Aanpak}{1}{4} \\
-\ganttbar{Onderzoeksplan}{2}{4} \\
+\ganttgroup{Definitie Fase}{1}{6} \\
+\ganttbar{Plan Van Aanpak}{1}{6} \\
 \ganttmilestone{Concept projectplan}{3}\\
 \ganttmilestone{Definitief projectplan}{6}\\
 %Onderzoek
-\ganttgroup{Onderzoek}{5}{18} \\
-\ganttbar{Analysis}{10}{16} \\
-\ganttbar{Requirements}{10}{16} \\
-\ganttbar{Prototyping}{10}{16} \\
+\ganttgroup{Realisatie Fase}{5}{18} \\
+\ganttbar{Iteratie 1}{5}{6} \\
+\ganttbar{Iteratie 2}{7}{8} \\
+\ganttbar{Iteratie 3}{9}{10} \\
+\ganttbar{Iteratie 4}{11}{12} \\
+\ganttbar{Iteratie 5}{13}{14} \\
+\ganttbar{Iteratie 6}{15}{16} \\
+\ganttbar{Iteratie 7}{17}{18} \\
 %Afstudeerverslagen
-\ganttgroup{Afstudeerverslagen}{10}{20} \\
-\ganttbar{Reflectieverslag}{10}{19} \\
-\ganttbar{Presentatie}{18}{19} \\
+\ganttgroup{Afronding Fase}{13}{20} \\
+\ganttbar{Reflectieverslag}{13}{19} \\
+\ganttbar{Presentatie}{20}{20} \\
 \ganttmilestone{80\% versie}{15}\\
 \ganttmilestone{Eindverslag}{19}\\
 \ganttmilestone{Afstudeerpresentatie}{20}\\
